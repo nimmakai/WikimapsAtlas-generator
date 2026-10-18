@@ -57,7 +57,7 @@ fi
 	echo "Source selected: ETOPO (1km/px)"
 	gdal_translate -projwin $WEST $NORTH $EAST $SOUTH -eco ../data/noaa/ETOPO1_Ice_g_geotiff.tif ./tmp/crop_xl.etopo.tmp.tif
 	cp ./tmp/crop_xl.etopo.tmp.tif ./crop_xl.etopo.tmp.tif
-#	cp ./tmp/crop_xl.etopo.tmp.tif ./crop_xl_raw.tmp.tif
+cp ./tmp/crop_xl.etopo.tmp.tif ./crop_xl_raw.tmp.tif
 #fi
 
 

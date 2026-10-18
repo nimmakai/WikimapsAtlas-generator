@@ -85,7 +85,7 @@ crop: clean
 .PHONY: clean
 
 clean:  
-	rm shade/*
+	rm -f shade/*
 	rm -f *.tiff
 	rm -f *.tif
 	rm -f *.jpg
